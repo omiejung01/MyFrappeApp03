@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mitsib_insurance *.css
+recursive-include mitsib_insurance *.csv
+recursive-include mitsib_insurance *.html
+recursive-include mitsib_insurance *.ico
+recursive-include mitsib_insurance *.js
+recursive-include mitsib_insurance *.json
+recursive-include mitsib_insurance *.md
+recursive-include mitsib_insurance *.png
+recursive-include mitsib_insurance *.py
+recursive-include mitsib_insurance *.svg
+recursive-include mitsib_insurance *.txt
+recursive-exclude mitsib_insurance *.pyc
